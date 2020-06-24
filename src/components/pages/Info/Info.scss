@@ -1,0 +1,46 @@
+.card-row {
+  padding: 3rem 0;
+
+  .card {
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 5px 20px 20px 1px rgba($color: #000000, $alpha: 0.253) !important;
+      .card-img-top {
+        transform: scale(1.3);
+      }
+    }
+    .card-body {
+      padding: 3rem 0 !important;
+    }
+    .card-text {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.9rem;
+    }
+    .overflow {
+      overflow: hidden;
+    }
+    .card-img-top {
+      height: 230px;
+      transform: scale(1);
+      transition: all 0.5s ease-in-out;
+      @media screen and (max-width: 600px) {
+        height: auto;
+      }
+    }
+    .btn {
+      background: rgb(86, 167, 192) !important;
+      color: white !important;
+      text-transform: capitalize;
+      position: relative;
+      transition: all 0.4s ease-in-out;
+
+      &:hover {
+        background: #ffffff !important;
+        color: #81cee6 !important;
+        border: 1px solid #81cee6;
+      }
+    }
+  }
+}

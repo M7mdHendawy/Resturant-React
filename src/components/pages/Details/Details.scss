@@ -1,0 +1,48 @@
+main {
+  height: 100vh;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  h1 {
+    padding-top: 10%;
+    color: #262626;
+  }
+  h4 {
+    color: #262626;
+  }
+  p {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+    color: #262626;
+  }
+  i {
+    font-size: 1.875rem;
+    color: #262626;
+  }
+  i:hover {
+    color: #81cee6;
+    cursor: pointer;
+  }
+  .nav-item {
+    height: 18.75rem;
+  }
+  @media (max-width: 760px) {
+    h1,
+    h4 {
+      color: white;
+    }
+  }
+}
+
+.nav-tabs {
+  border-color: #81cee6 !important;
+  .nav-item {
+    &:hover {
+      color: #495057;
+    }
+    a {
+      color: rgb(123, 206, 230);
+    }
+  }
+}

@@ -1,0 +1,19 @@
+footer {
+    padding: 3rem 0;
+    background: rgba(247, 247, 247, 0.575) !important;
+  h4 {
+    margin-bottom: 20px !important;
+  }
+
+  p {
+    color: #262626 !important;
+  }
+  .footer-link {
+    color: #262626 !important;
+
+    &:hover {
+      text-decoration: none !important;
+      color: #81CEE6 !important;
+    }
+  }
+}
